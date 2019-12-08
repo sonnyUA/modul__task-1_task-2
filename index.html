@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formula 1 Top-3 2019-2020 season</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="tophead" class="header">
+            <ul>
+                <li style="float:left">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/f1_logo.svg" alt="logo"></a>
+                    </div>
+                </li>
+                <li class="anchor"><a href="#main__article-team-info">About Teams</a></li>
+                <li class="anchor"><a href="#footer__item-slider">Slider</a></li>
+                <li class="anchor"><a href="#foot">End</a></li>
+                <li style="float:right">
+                    <div class="burger-menu">
+                        <a id="openclick" href="#" onclick=" displaybox()"><img src="menu-button.png" alt="menu"></a>
+                    </div>
+                </li>
+            </ul>
+            <div class="header__item-drop-form" id="box">
+                <div class="toggle">
+                    <a id="closeclick" href="#" onclick="nonebox()" class="close"><img src="close-button.png" alt=""></a>
+                </div>
+                <div class="tabl-content" style="background: #ccc;">
+                    <div class="tabl-body">
+                        <form role="form ">
+                            <div id="inblock" class="form-group ">
+                                <label for="name">ФИО</label>
+                                <input type="text " class="form-control " id="name " placeholder="Ваше ФИО ">
+                            </div>
+                            <div id="inblock" class="form-group ">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control " id="email " placeholder="Ваша электронная почта ">
+                            </div>
+                            <div class="form-group ">
+                                <label for="sex">Пол:</label>
+                                <select name="category" id="category" style="color: rgb(0, 0, 0)">
+                                                <option value="1">Мужской</option>
+                                                <option value="1">Женский</option>
+                                                <option value="1">Другое О.о</option>
+                                                
+                                        </select></div>
+                            <div class="form-group ">
+                                <label for="team">Любимая команда</label>
+                                <select name="category" id="category" style="color: rgb(0, 0, 0)">
+                                                            <option value="1">Aston Martin Red Bull Racing</option>
+                                                            <option value="1">Scuderia Ferrari Mission Winnow</option>
+                                                            <option value="1">Mercedes AMG Petronas Motorsport</option>
+                                                            
+                                                    </select></div>
+                            <div class="form-group ">
+                                <label for="password">Пароль</label>
+                                <input type="password" class="form-control " id="password " placeholder="Уже придумали пароль?">
+                            </div>
+                            <div class="form-group ">
+                                <label for="tel">Номер телефона</label>
+                                <input type="tel" class="form-control " id="name " placeholder="Можно Ваш номерочек?">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="about">О себе:</label>
+                                <textarea class="form-control" id="about" rows="3" placeholder="Опишите себя в трёх словах"></textarea>
+                            </div>
+                            <button type="submit " id="submit " class="btn btn-success btn-block ">OK</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="main">
+
+            <section id="main__article-team-info" class="main__article-team-info">
+                <h1>Mercedes AMG Petronas Motorsport</h1>
+                <br>
+                <p>
+                    Mercedes' revival of their Formula 1 tradition through the creation of a works team for the 2010 championship was also the platform for a meteoric rise up the Grand Prix order. Already the team had generated huge excitement by securing the sensational
+                    return of Michael Schumacher, but headlines began to follow on track: three podiums came in their debut season, all via Nico Rosberg - who then claimed a breakthrough pole/victory double at China in 2012. The following season he would
+                    be paired with Lewis Hamilton, with the duo going on to stage some epic title battles as Mercedes swept all before them to become one of the most dominant forces of the modern F1 era...
+                </p>
+                <br>
+                <h2>Scuderia Ferrari Mission Winnow</h2>
+                <br>
+                <p>
+                    For many, Ferrari and Formula 1 racing have become inseparable. The only team to have competed in every season since the world championship began, the Prancing Horse has grown from the humble dream of founder Enzo Ferrari to become one of the most iconic
+                    and recognised brands in the world. Success came quickly through the likes of Alberto Ascari and John Surtees, and continued – in amongst leaner times – with Niki Lauda in the 1970s and then Michael Schumacher in the 2000s, when Ferrari
+                    claimed a then unprecedented five consecutive title doubles, securing their status as the most successful and decorated team in F1 history...
+                </p>
+                <br>
+                <h3>Aston Martin Red Bull Racing</h3>
+                <br>
+                <p>
+                    Red Bull had already been a long-term sponsor in Formula One racing before formally entering as a works team following the acquisition of Jaguar in November 2004. The scale of success that followed over the next decade has been staggering. A first podium
+                    arrived in 2006 courtesy of David Coulthard, but it was in 2009 that the team really hit their stride, claiming six victories en route to second in the constructors' standings. Over the next four seasons they were a tour de force,
+                    claiming consecutive drivers' and constructors' doubles between 2010 and 2013, with Sebastan Vettel emerging as the sport's youngest quadruple champion...
+                </p>
+                <br>
+            </section>
+        </main>
+        <footer>
+            <section id="footer__item-slider">
+                <div class="slideshow-container" id="slideshow">
+
+                    <div class="Slides fade">
+
+                        <img src="img/RB.jpg">
+                        <div class="slider-text" style="background-color: rgb(0, 132, 255);">Aston Martin Red Bull Racing Team</div>
+
+                    </div>
+
+                    <div class="Slides fade">
+
+                        <img src="img/SF.jpg">
+                        <div class="slider-text" style="background-color: rgb(255, 82, 82);">Scuderia Ferrari Mission Winnow</div>
+                    </div>
+
+                    <div class="Slides fade">
+
+                        <img src="img/AMG.jpg">
+                        <div class="slider-text" style="background-color: lightblue;">Mercedes AMG Petronas Motorsport</div>
+                    </div>
+
+
+
+                    <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </section>
+            <br>
+            <section class="footer__bg-SPAIN">
+                <section id="foot" class="foot">
+                    <br>
+                    <div id="block" onclick="selectDate()" class="block_lime"></div>
+                </section>
+                <section class="footer__item-go-to-top">
+                    <ul>
+                        <li><a href="#tophead">Go to <br> Top</a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
